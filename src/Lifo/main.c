@@ -10,6 +10,7 @@ int main(){
     push(&st, create_node, 1, 2);
     push(&st, create_node, 4, 8);
     push(&st, create_node, 1, 3);
+    push(&st, create_node, 0, 0);
     push(&st, create_node, 8, 9);
     push(&st, create_node, 51, 11);
     push(&st, create_node, 2, 3);
@@ -26,7 +27,7 @@ int main(){
     }
 
     if(st.head == NULL){
-        printf("\nsize_st: %d\nStack is empty!\n", st.size_st);
+        printf("Size stack: %d\nStack is empty!\n", st.size_st);
     }
 
     return 0;
