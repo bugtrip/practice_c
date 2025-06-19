@@ -1,6 +1,4 @@
-#ifndef POP_
-#define POP_
-
+#include "pop.h"
 #include "stack.h"
 
 void pop(Stack* st){
@@ -24,4 +22,3 @@ void pop(Stack* st){
     --st->size_st;
 }
 
-#endif

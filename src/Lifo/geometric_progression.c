@@ -1,7 +1,5 @@
-#ifndef GEOM_PROG_
-#define GEOM_PROG_
-
-#include "stack.h"
+#include "geometric_progression.h"
+//#include "stack.h"
 
 void geometric_progression(Node* current){
     current->arr[0] = current->first_elem;
@@ -9,5 +7,3 @@ void geometric_progression(Node* current){
         current->arr[i] = current->arr[i-1] * current->common_ratio;
     }
 }
-
-#endif

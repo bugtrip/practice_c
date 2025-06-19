@@ -1,8 +1,6 @@
-#ifndef PRINT_NODE_
-#define PRINT_NODE_
-
+#include "print_node.h"
 #include <stdio.h>
-#include "stack.h"
+//#include "stack.h"
 
 void print_node(Node* top){
     printf("First element: %d\nCommon ratio: %d\n", top->first_elem, top->common_ratio);
@@ -31,4 +29,3 @@ void print_st(Stack* st){
 }
 */
 
-#endif

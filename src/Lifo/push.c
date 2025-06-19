@@ -1,7 +1,7 @@
-#ifndef PUSH_
-#define PUSH_
-
+#include "push.h"
 #include "stack.h"
+#include "geometric_progression.h"
+#include "top.h"
 
 void push(Stack* st, ptr_create_node new_node, int elem, int ratio){
     if(st->head == NULL){
@@ -19,5 +19,3 @@ void push(Stack* st, ptr_create_node new_node, int elem, int ratio){
         st->size_st++;
     }
 }
-
-#endif

@@ -1,7 +1,5 @@
-#ifndef CREATE_NODE_
-#define CREATE_NODE_
-
-#include "stack.h"
+#include "create_node.h"
+//#include "stack.h"
 
 Node* create_node(int elem, int ratio, ptr_geom_progression calc_progression){
     Node* cur = malloc(sizeof(Node));
@@ -11,5 +9,3 @@ Node* create_node(int elem, int ratio, ptr_geom_progression calc_progression){
     
     return cur;
 }
-
-#endif

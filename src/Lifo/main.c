@@ -1,8 +1,10 @@
-#ifndef MAIN_
-#define MAIN_
-
 #include <stdio.h>
 #include "stack.h"
+#include "push.h"
+#include "create_node.h"
+#include "top.h"
+#include "pop.h"
+#include "print_node.h"
 
 int main(){
     Stack st = {NULL, 0};
@@ -32,5 +34,3 @@ int main(){
 
     return 0;
 }
-
-#endif

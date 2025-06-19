@@ -1,7 +1,5 @@
-#ifndef TOP_
-#define TOP_
-
-#include "stack.h"
+#include "top.h"
+//#include "stack.h"
 
 Node* top(Stack* st){
     Node* cur = st->head;
@@ -12,5 +10,3 @@ Node* top(Stack* st){
     }
     return cur;
 }
-
-#endif
