@@ -1,5 +1,4 @@
 #include "pop.h"
-#include "stack.h"
 
 void pop(Stack* st){
     if(st == NULL){ return ; }

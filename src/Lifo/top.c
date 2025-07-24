@@ -1,5 +1,4 @@
 #include "top.h"
-//#include "stack.h"
 
 Node* top(Stack* st){
     Node* cur = st->head;

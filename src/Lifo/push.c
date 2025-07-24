@@ -1,5 +1,5 @@
 #include "push.h"
-#include "stack.h"
+//#include "stack.h"
 #include "geometric_progression.h"
 #include "top.h"
 

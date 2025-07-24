@@ -1,5 +1,4 @@
 #include "create_node.h"
-//#include "stack.h"
 
 Node* create_node(int elem, int ratio, ptr_geom_progression calc_progression){
     Node* cur = malloc(sizeof(Node));

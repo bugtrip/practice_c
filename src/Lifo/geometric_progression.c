@@ -1,5 +1,4 @@
 #include "geometric_progression.h"
-//#include "stack.h"
 
 void geometric_progression(Node* current){
     current->arr[0] = current->first_elem;

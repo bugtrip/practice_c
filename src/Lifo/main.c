@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "stack.h"
 #include "push.h"
 #include "create_node.h"
 #include "top.h"
