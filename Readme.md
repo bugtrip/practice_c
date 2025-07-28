@@ -28,4 +28,9 @@ In the main function declare an array points of type `POINT` with 20 elements. R
 Print the resulting array to the console. Then call the `calculate_arithmetic_means` function using only the valid elements of the points array (those that were filled with input data). Print the returned values (`mean_x` and `mean_y`) to the console on a single line, separated by a space, with two decimal places of precision.
 __________________________________________________________
 
-4.
+4. Double array struct
+
+Create a user-defined type (structure) in which one of the fields stores an array of type double. Implement functionality to populate this structure and display its values to the console with a precision of two decimal places.
+__________________________________________________________
+
+5. 
