@@ -3,8 +3,7 @@
 #include "set_char_array.h"
 #include "set_int_array.h"
 #include "alloc_desc.h"
-#include "print_desc_name.h"
-#include "print_desc_value.h"
+#include "print_description.h"
 #include "free_description.h"
 #include "write_to_file.h"
 
@@ -18,8 +17,7 @@ int main(){
 	if(desc != NULL){
 		set_char_array(desc->name, str_1, char_ar_size);
 		set_int_array(desc->value, ar_1, int_ar_size);
-		print_desc_name(desc);
-		print_desc_value(desc);
+		print_description(desc);
 
 		int res_write_to_file = write_to_file(desc);
 		if(res_write_to_file == -1){
