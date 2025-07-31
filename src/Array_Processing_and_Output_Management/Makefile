@@ -8,4 +8,4 @@ main: main.c $(OBJ)
 run:
 	./main
 clean:
-	rm -f *.o
+	rm -f *.o main description.txt

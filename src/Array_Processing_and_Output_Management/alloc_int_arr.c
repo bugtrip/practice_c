@@ -6,7 +6,10 @@ int_array* alloc_int_arr(size_t int_arr_size){
 	if(tmp == NULL){ return NULL; }
 	tmp->size = int_arr_size > MAX_SIZE ? MAX_SIZE : int_arr_size;
 	tmp->arr = (int*)malloc(sizeof(int[tmp->size]));
-	if(tmp->arr == NULL){ return NULL; }
+	if(tmp->arr == NULL){ 
+		free(tmp);
+		return NULL; 
+	}
 
 	return tmp;
 }

@@ -15,18 +15,19 @@ int main(){
 	const size_t int_ar_size = sizeof(ar_1)/sizeof(*ar_1);
 
 	description* desc = alloc_desc(char_ar_size, int_ar_size);
+	if(desc != NULL){
+		set_char_array(desc->name, str_1, char_ar_size);
+		set_int_array(desc->value, ar_1, int_ar_size);
+		print_desc_name(desc);
+		print_desc_value(desc);
 
-	set_char_array(desc->name, str_1, char_ar_size);
-	set_int_array(desc->value, ar_1, int_ar_size);
-	print_desc_name(desc);
-	print_desc_value(desc);
+		int res_write_to_file = write_to_file(desc);
+		if(res_write_to_file == -1){
+			printf("fopen() failed!\n");
+		}
 
-	int res_write_to_file = write_to_file(desc);
-	if(res_write_to_file == -1){
-		printf("fopen() failed!\n");
+		free_description(desc);
 	}
-
-	free_description(desc);
-
+	
 	return 0;
 }
