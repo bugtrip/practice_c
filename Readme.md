@@ -10,12 +10,7 @@ The program must support the following operations:
 The values of the variables `x` and `n` must not exceed 50 and 10.
 __________________________________________________________
 
-2. Game board
-
-Write a program where a 10x10 two-dimensional game board is created, and 12 'mines' are randomly placed such that they do not touch each other (there should be no mines in the neighboring cells of a mine). The game board should be represented as a two-dimensional array, with the type `char` and size 10x10. Empty cells (without mines) should be assigned the value 0, while cells containing mines should be marked with the symbol `*` .
-__________________________________________________________
-
-3. Calculating the arithmetic means
+2. Calculating the arithmetic means
 
 Define a structure with two fields `x` and `y` of type `int`, and create a type named `POINT` for this structure.
 Declare a function named `calculate_arithmetic_means` that takes two parameters:
@@ -28,12 +23,12 @@ In the main function declare an array points of type `POINT` with 20 elements. R
 Print the resulting array to the console. Then call the `calculate_arithmetic_means` function using only the valid elements of the points array (those that were filled with input data). Print the returned values (`mean_x` and `mean_y`) to the console on a single line, separated by a space, with two decimal places of precision.
 __________________________________________________________
 
-4. Double array struct
+3. Double array struct
 
 Create a user-defined type (structure) in which one of the fields stores an array of type double. Implement functionality to populate this structure and display its values to the console with a precision of two decimal places.
 __________________________________________________________
 
-5. Array Processing and Output Management
+4. Array Processing and Output Management
 
 Write a program that processes two arrays: one of type `char` (maximum size 2048) and another of type `int` (maximum size 256). The data should be stored in a structure called `description` (you need to decide how to store the arrays within `description`).
 
@@ -45,4 +40,4 @@ Your program should implement the following functionality:
 - Write the values of the `description` structure to a file.
 __________________________________________________________
 
-6. 
+5. 
