@@ -28,7 +28,7 @@ __________________________________________________________
 Create a user-defined type (structure) in which one of the fields stores an array of type double. Implement functionality to populate this structure and display its values to the console with a precision of two decimal places.
 __________________________________________________________
 
-4. Array Processing and Output Management
+4. Structure processing and output management
 
 Write a program that processes two arrays: one of type `char` (maximum size 2048) and another of type `int` (maximum size 256). The data should be stored in a structure called `description` (you need to decide how to store the arrays within `description`).
 
